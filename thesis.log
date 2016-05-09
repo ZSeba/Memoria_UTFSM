@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.13)  13 APR 2016 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.13)  14 APR 2016 00:00
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -207,25 +207,50 @@ File: keystroke_right.pdf Graphic file (type pdf)
 Package pdftex.def Info: keystroke_right.pdf used on input line 173.
 (pdftex.def)             Requested size: 42.15738pt x 195.73076pt.
 )
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.st
+y"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip44
+\bibsep=\skip45
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count99
+)
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.
 sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip44
-\LTright=\skip45
-\LTpre=\skip46
-\LTpost=\skip47
-\LTchunksize=\count99
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count100
 \LTcapwidth=\dimen109
 \LT@head=\box30
 \LT@firsthead=\box31
 \LT@foot=\box32
 \LT@lastfoot=\box33
-\LT@cols=\count100
-\LT@rows=\count101
-\c@LT@tables=\count102
-\c@LT@chunks=\count103
+\LT@cols=\count101
+\LT@rows=\count102
+\c@LT@tables=\count103
+\c@LT@chunks=\count104
 \LT@p@ftn=\toks15
 )
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
+f.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
+f-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
+sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
 y"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -543,24 +568,24 @@ LaTeX Info: Redefining \not on input line 1043.
 )
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listing
 s.sty"
-\lst@mode=\count104
+\lst@mode=\count105
 \lst@gtempboxa=\box34
 \lst@token=\toks18
-\lst@length=\count105
+\lst@length=\count106
 \lst@currlwidth=\dimen110
-\lst@column=\count106
-\lst@pos=\count107
+\lst@column=\count107
+\lst@pos=\count108
 \lst@lostspace=\dimen111
 \lst@width=\dimen112
-\lst@newlines=\count108
-\lst@lineno=\count109
+\lst@newlines=\count109
+\lst@lineno=\count110
 \lst@maxwidth=\dimen113
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc
 .sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count110
-\lst@skipnumbers=\count111
+\c@lstnumber=\count111
+\lst@skipnumbers=\count112
 \lst@framebox=\box35
 )
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listing
@@ -592,12 +617,12 @@ Language: greek 2016/02/04 v1.9f Greek support for the babel system
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.de
 f"
 File: babel.def 2016/01/08 3.9n Babel common definitions
-\babel@savecnt=\count112
+\babel@savecnt=\count113
 \U@D=\dimen115
 )
-\bbl@monogreek=\count113
-\bbl@polygreek=\count114
-\bbl@ancientgreek=\count115
+\bbl@monogreek=\count114
+\bbl@polygreek=\count115
+\bbl@ancientgreek=\count116
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\greek-fontenc\lg
 renc.def"
@@ -979,7 +1004,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 anish.ldf"
 Language: spanish.ldf 2016/01/15 v5.0o Spanish support from the babel system
 \es@quottoks=\toks19
-\es@quotdepth=\count116
+\es@quotdepth=\count117
 Package babel Info: Making " an active character on input line 533.
 Package babel Info: Making . an active character on input line 634.
 Package babel Info: Making < an active character on input line 679.
@@ -1016,20 +1041,20 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen118
 \extrarowheight=\dimen119
 \NC@list=\toks20
-\extratabsurround=\skip48
-\backup@length=\skip49
+\extratabsurround=\skip50
+\backup@length=\skip51
 )
 \TX@col@width=\dimen120
 \TX@old@table=\dimen121
 \TX@old@col=\dimen122
 \TX@target=\dimen123
 \TX@delta=\dimen124
-\TX@cols=\count117
+\TX@cols=\count118
 \TX@ftn=\toks21
 )
 Opciones de Estilo del Documento 'UTFSM_tesis'.
 ) (sty/xtocinc.sty
-\tclineskip=\skip50
+\tclineskip=\skip52
 )
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.
 sty"
@@ -1047,7 +1072,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen130
 \caption@hangindent=\dimen131
 )
-\c@ContinuedFloat=\count118
+\c@ContinuedFloat=\count119
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1059,10 +1084,10 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcapti
 on.sty"
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-\c@subfigure=\count119
-\c@subtable=\count120
+\c@subfigure=\count120
+\c@subtable=\count121
 )
-\defbaselineskip=\skip51
+\defbaselineskip=\skip53
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang
 1.sty"
@@ -1161,7 +1186,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 tlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count121
+\c@section@level=\count122
 )
 LaTeX Info: Redefining \ref on input line 85.
 LaTeX Info: Redefining \pageref on input line 85.
@@ -1174,19 +1199,19 @@ LaTeX Info: Redefining \nameref on input line 85.
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
 mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
+\scratchcounter=\count123
 \scratchdimen=\dimen132
 \scratchbox=\box37
-\nofMPsegments=\count123
-\nofMParguments=\count124
+\nofMPsegments=\count124
+\nofMParguments=\count125
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count125
+\MPscratchCnt=\count126
 \MPscratchDim=\dimen133
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks23
 )
-\c@lstlisting=\count128
+\c@lstlisting=\count129
 LaTeX Info: Redefining \. on input line 85.
 LaTeX Info: Redefining \% on input line 85.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1196,62 +1221,47 @@ LaTeX Info: Redefining \% on input line 87.
 
 Most over/underfulls in first few pages are the fault of dalthesis.
 Ignore all them. If uncorrectable errors occur, notify staff.
+Package epstopdf Info: Source file: <images/isotipo_negro.eps>
+(epstopdf)                    date: 2015-08-03 08:07:18
+(epstopdf)                    size: 18232 bytes
+(epstopdf)             Output file: <images/isotipo_negro-eps-converted-to.pdf>
 
-! LaTeX Error: Unknown graphics extension: .eps.
+(epstopdf)                    date: 2015-08-03 08:07:18
+(epstopdf)                    size: 8421 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/isotipo_negro-eps-co
+nverted-to.pdf images/isotipo_negro.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
+<images/isotipo_negro-eps-converted-to.pdf, id=76, 692.5875pt x 504.88625pt>
+File: images/isotipo_negro-eps-converted-to.pdf Graphic file (type pdf)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 \beforepreface
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<use images/isotipo_negro-eps-converted-to.pdf>
+Package pdftex.def Info: images/isotipo_negro-eps-converted-to.pdf used on inpu
+t line 104.
+(pdftex.def)             Requested size: 128.79247pt x 93.89409pt.
+ [1
 
+{C:/Users/ZSeibar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/
+isotipo_negro-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/logo_usm.eps>
+(epstopdf)                    date: 2015-08-03 08:07:18
+(epstopdf)                    size: 134932 bytes
+(epstopdf)             Output file: <images/logo_usm-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-08-03 08:07:18
+(epstopdf)                    size: 49720 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/logo_usm-eps-convert
+ed-to.pdf images/logo_usm.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
 
-! LaTeX Error: There's no line here to end.
+<images/logo_usm-eps-converted-to.pdf, id=87, 591.20876pt x 428.60126pt>
+File: images/logo_usm-eps-converted-to.pdf Graphic file (type pdf)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 \beforepreface
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
-
-{C:/Users/ZSeibar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-! LaTeX Error: File `images/logo_usm' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 \beforepreface
-                    
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 \beforepreface
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[2]
+<use images/logo_usm-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo_usm-eps-converted-to.pdf used on input lin
+e 104.
+(pdftex.def)             Requested size: 129.51604pt x 93.89409pt.
+ [2 <./images/logo_usm-eps-converted-to.pdf>]
 Acknowledgements
 \openout2 = `include/acknowledgements.aux'.
 
@@ -1275,13 +1285,40 @@ Abstract
 
 
 ]
-\@defbaselineskip=\skip52
+\@defbaselineskip=\skip54
  (thesis.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
- [6
+LaTeX Font Info:    Try loading font information for U+txmia on input line 11.
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\utxmia.f
+d"
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsya on input line 11.
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\utxsya.f
+d"
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 11.
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\utxsyb.f
+d"
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 11.
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\utxsyc.f
+d"
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 11.
+ ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+) [6
 
 
 ])
@@ -1308,8 +1345,7 @@ LaTeX Info: Redefining \% on input line 2.
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
-
-[9
+ [9
 
 ]
 Abbreviations
@@ -1329,20 +1365,190 @@ Cap\'{\i }tulo 1.
 
 ]
 Cap\'{\i }tulo 2.
-) (include/propuesta.tex [3
+
+Package natbib Warning: Citation `Aghaei2012' on page 3 undefined on input line
+ 4.
+
+[3
 
 ]
+
+Package natbib Warning: Citation `Marsh1994' on page 4 undefined on input line 
+21.
+
+
+Package natbib Warning: Citation `Medic2012' on page 4 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `Robillard2010' on page 4 undefined on input l
+ine 28.
+
+[4]
+
+Package natbib Warning: Citation `Marsh1994' on page 5 undefined on input line 
+30.
+
+
+Package natbib Warning: Citation `Marsh1994' on page 5 undefined on input line 
+35.
+
+
+Package natbib Warning: Citation `Medic2012' on page 5 undefined on input line 
+39.
+
+[5]
+
+Package natbib Warning: Citation `Medic2012' on page 6 undefined on input line 
+45.
+
+
+Package natbib Warning: Citation `Victor' on page 6 undefined on input line 47.
+
+
+
+Package natbib Warning: Citation `Medic2012' on page 6 undefined on input line 
+48.
+
+
+Package natbib Warning: Citation `Victor' on page 6 undefined on input line 48.
+
+
+
+Package natbib Warning: Citation `Artz2007' on page 6 undefined on input line 4
+8.
+
+
+Package natbib Warning: Citation `Medic2012' on page 6 undefined on input line 
+60.
+
+[6]
+
+Package natbib Warning: Citation `Medic2012' on page 7 undefined on input line 
+64.
+
+
+Package natbib Warning: Citation `Victor' on page 7 undefined on input line 68.
+
+
+
+Package natbib Warning: Citation `Victor' on page 7 undefined on input line 75.
+
+
+[7]
+
+Package natbib Warning: Citation `Victor' on page 8 undefined on input line 79.
+
+
+<images/trustprop.png, id=195, 724.20563pt x 542.025pt>
+File: images/trustprop.png Graphic file (type png)
+
+<use images/trustprop.png>
+Package pdftex.def Info: images/trustprop.png used on input line 85.
+(pdftex.def)             Requested size: 217.26337pt x 162.60875pt.
+ [8 <./images/trustprop.png>]
+
+Package natbib Warning: Citation `Victor' on page 9 undefined on input line 94.
+
+
+[9] <images/trustaggr.png, id=209, 724.20563pt x 542.025pt>
+File: images/trustaggr.png Graphic file (type png)
+
+<use images/trustaggr.png>
+Package pdftex.def Info: images/trustaggr.png used on input line 127.
+(pdftex.def)             Requested size: 217.26337pt x 162.60875pt.
+ [10 <./images/trustaggr.png>]
+
+Package natbib Warning: Citation `Resnick1997' on page 11 undefined on input li
+ne 141.
+
+
+Package natbib Warning: Citation `Girgin' on page 11 undefined on input line 14
+1.
+
+
+Overfull \hbox (29.27429pt too wide) in paragraph at lines 149--150
+[]\OT1/txr/m/n/12 En un sis-te-ma re-co-men-da-dor, se pue-den iden-ti-fi-car d
+os cla-ses de en-ti-da-des, \OT1/txr/m/it/12 usua-rios \OT1/txr/m/n/12 e \OT1/t
+xr/m/it/12 tems\OT1/txr/m/n/12 [CITA].
+ []
+
+
+Overfull \hbox (94.00232pt too wide) in paragraph at lines 153--163
+ [][] 
+ []
+
+[11]
+Overfull \hbox (94.00232pt too wide) in paragraph at lines 190--200
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12]
+
+Package natbib Warning: Citation `Girgin' on page 13 undefined on input line 20
+5.
+
+
+Package natbib Warning: Citation `Victor' on page 13 undefined on input line 20
+5.
+
+
+Overfull \hbox (94.00232pt too wide) in paragraph at lines 209--219
+[][] 
+ []
+
+
+Package natbib Warning: Citation `Girgin' on page 13 undefined on input line 23
+0.
+
+[13]
+
+Package natbib Warning: Citation `Victor' on page 14 undefined on input line 25
+0.
+
+[14] <images/trustrec.png, id=234, 596.98032pt x 357.58594pt>
+File: images/trustrec.png Graphic file (type png)
+
+<use images/trustrec.png>
+Package pdftex.def Info: images/trustrec.png used on input line 256.
+(pdftex.def)             Requested size: 179.09547pt x 107.2766pt.
+
+
+Package natbib Warning: Citation `Victor' on page 15 undefined on input line 26
+6.
+
+[15 <./images/trustrec.png>]
+
+Package natbib Warning: Citation `Victor' on page 16 undefined on input line 29
+0.
+
+[16]
+
+Package natbib Warning: Citation `Victor' on page 17 undefined on input line 30
+4.
+
+
+Package natbib Warning: Citation `Victor' on page 17 undefined on input line 31
+2.
+
+) (include/propuesta.tex [17]
 Cap\'{\i }tulo 3.
-) (include/implementacion.tex [4
+) (include/implementacion.tex [18
 
 ]
 Cap\'{\i }tulo 4.
-) (include/conclusiones.tex [5
+) (include/conclusiones.tex [19
 
-]) [6
+]) [20
 
 ]
 No file thesis.bbl.
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
 (thesis.aux
@@ -1355,26 +1561,38 @@ LaTeX Info: Redefining \% on input line 27.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 63DA7DFB138B2357AB8C6FE8614772AB;667.
+(rerunfilecheck)             Checksum: 1DD7B6BF62E62256CD85F05A3919A11C;1080.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
  ) 
 Here is how much of TeX's memory you used:
- 10866 strings out of 493634
- 161250 string characters out of 3134423
- 263524 words of memory out of 3000000
- 13989 multiletter control sequences out of 15000+200000
- 31391 words of font info for 59 fonts, out of 3000000 for 9000
+ 11536 strings out of 493634
+ 171280 string characters out of 3134423
+ 275448 words of memory out of 3000000
+ 14564 multiletter control sequences out of 15000+200000
+ 63275 words of font info for 143 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,5n,38p,464b,619s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/
-8r.enc}<C:/Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/t
-xfonts/rtxbsc.pfb><C:/Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/txfonts/rtxsc.pfb><C:/Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ZSeibar/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thesis.pdf (16 pages, 51928 bytes).
+ 36i,9n,39p,740b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8r
+.enc}<C:/Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txf
+onts/rtxbsc.pfb><C:/Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/txfonts/rtxmi.pfb><C:/Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/txfonts/rtxr.pfb><C:/Users/ZSeibar/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/ZSeibar/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/txfonts/txex.pfb><C:/Users/ZSeibar/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Users/ZSeiba
+r/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/
+ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
+Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on thesis.pdf (30 pages, 499043 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

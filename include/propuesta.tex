@@ -1,3 +1,41 @@
 \chapter{Propuesta}
 
+Se propone el desarrollo de un sistema que incorpore elementos, tanto de la computación basada en "trust" como las de web social, más específicamente, los sistemas recomendadores. El dominio escogido para este sistema es el turismo en la región metropolitana. Actualmente existe una gran variedad de centros culturales y otros lugares interesantes para visitar, sin embargo, un visitante no tiene tiempo para visitarlos todos y además puede tener preferencia sobre algún tipo de lugar por sobre otros. La idea es, primero, ofrecer una plataforma en la que un usuario pueda encontrar lugares culturales cercanos y poder dejar una reseña escrita que describa brevemente la experiencia de la visita. Por otra parte, se espera que las opiniones de la comunidad que use este sistema permitan predecir los lugares que serán del gusto del usuario objetivo. 
+
+\subsection{Caracteristicas}
+En esta sección se describen X características que incluye el sistema "VISIT CHILE", los cuales abarcan conceptos de web social y trust.
+
+\begin{enumerate}
+\item{Posibilidad de dejar opiniones en forma de "reviews" que consisten en una calificación, del 1 al 5 del lugar visitado, junto con una descripción corta del lugar }
+\element{Visualización de perfil de usuario, con avatar y lista de "reviews" escritas}
+\element{Visualización de lugares culturales, que incluyen una fotografía del lugar, una descripción y además, la lista de opiniones de los usuarios al respecto}
+\element{Visualización de lista de lugares recomendados para un usuario, ordenados según el puntaje predicho}
+\element{Funcionalidad que permite calificar las reseñas que deja cada usuario, indicando si le fueron útiles o no}
+\element{Funcionalidad de tags para cada lugar cultural, según las actividades que se pueden realizar ahí}
+\element{Funcionalidad de buscar lugares según el tag que posean}
+\element{Funcionalidad de buscar lugares según la cercanía geográfica}
+\end{enumerate}
+
+\subsection{Arquitectura de la solución} 
+
+El sistema "CHILEEE" consiste en una aplicación web desarrollada utilizando el framework Ruby on Rails, el cual utiliza el paradigma MVC (Modelo, Vista, Controlador). Para almacenar todos los datos (usuarios, lugares, reseñas y trust) Se utilizó Neo4j, una base de datos NoSQL diseñada para almacenar grafos. Neo4j permite unificar la lógica de trust y la del sistema de recomendación, diseñando el sistema completo como un grafo. En este grafo existen tres tipos de nodos.
+
+\begin{enumerate}
+\item{Los de color azul representan a los usuarios, quienes son los que dejarán sus opiniones respecto a los lugares que visitan.}
+\item{Los de color verde son los 'Items', en específico, los lugares culturales sobre los cuales se opina}
+\item{Finalmente, los de color rojo son los tags, que describen los lugares, según los tipos de actividades que se pueden hacer en cada uno de ellos.}
+\end{enumerate} 
+Todo grafo debe tener, además de nodos, arcos, en este caso, representan las relaciones entre las entidades que describe el sistema. Existen cuatro tipos, trust, vote, tagged y review.
+\begin{enumerate}
+\item{La relación review va desde un usuario hacia un ítem, indica la opinión que tuvo el usuario en particular acerca del ítem al que apunta. Además de la dirección hacia la que apunta, contiene la información sobre la opinión dada, una corta reseña y una puntuación en "estrellas"}
+\item{La relación vote describe la opinión de un usario sobre la reseña que haya escrito otro. Ya que una persona no siempre puede estar de acuerdo con la apreciación de otra, se refleja esto en el contenido del arco, que indica si la reseña le fue útil al usuario actual o no.}
+\item{La relación tagged es entre un item y varios tags, cuando un tag apunta a un ítem, significa que éste item ha sido "tagueado" o "marcado" por este tag y es por lo tanto descrito, en parte, por éste. }
+\item{La relación trust es entre un usuario y otro, indica el nivel de confianza que uno hacia el otro, el contenido de este arco es un valor que intenta representar el nivel de confianza, un nivel cero significa que no existe confianza, mientras que un nivel 1 indica confianza total. Por defecto el valor asignado es 0.5}
+\end{enumerate}
+
+# incluir imagenes,  screens de un grafo ejemplo.
+
+\subsection{Implementación de las características}
+
+En la sección X se hizo un listado de las características que posee el sistema. A continuación se detallará el diseño e implementación de las características anteriormente nombradas. 
 
