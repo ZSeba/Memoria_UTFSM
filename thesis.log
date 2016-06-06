@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.13)  14 APR 2016 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.13)  5 JUN 2016 20:32
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1015,6 +1015,102 @@ sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen116
 \epsfysize=\dimen117
+)
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjust
+box.sty"
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.
+sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyva
+l.tex"
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvuti
+ls.tex"
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count118
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjcal
+c.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\trimcl
+ip.sty"
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\colle
+ctbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box36
+)
+\tc@llx=\dimen118
+\tc@lly=\dimen119
+\tc@urx=\dimen120
+\tc@ury=\dimen121
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pdf
+tex.def"
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen122
+\adjbox@Height=\dimen123
+\adjbox@Depth=\dimen124
+\adjbox@Totalheight=\dimen125
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifoddp
+age.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count119
+)
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\varwidth
+.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box37
+\sift@deathcycles=\count120
+\@vwid@loff=\dimen126
+\@vwid@roff=\dimen127
+))
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.st
+y"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.c
+fg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colortb
+l.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen128
+\extrarowheight=\dimen129
+\NC@list=\toks22
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
+\everycr=\toks23
+\minrowclearance=\skip52
+)
+\rownum=\count121
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (sty/utfsm_tesis.sty
 
 LaTeX Warning: You have requested package `sty/utfsm_tesis',
@@ -1035,26 +1131,17 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.s
 ty"
 Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
-
-("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen118
-\extrarowheight=\dimen119
-\NC@list=\toks20
-\extratabsurround=\skip50
-\backup@length=\skip51
-)
-\TX@col@width=\dimen120
-\TX@old@table=\dimen121
-\TX@old@col=\dimen122
-\TX@target=\dimen123
-\TX@delta=\dimen124
-\TX@cols=\count118
-\TX@ftn=\toks21
+\TX@col@width=\dimen130
+\TX@old@table=\dimen131
+\TX@old@col=\dimen132
+\TX@target=\dimen133
+\TX@delta=\dimen134
+\TX@cols=\count122
+\TX@ftn=\toks24
 )
 Opciones de Estilo del Documento 'UTFSM_tesis'.
 ) (sty/xtocinc.sty
-\tclineskip=\skip52
+\tclineskip=\skip53
 )
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.
 sty"
@@ -1064,15 +1151,15 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 .sty"
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen125
-\captionmargin@=\dimen126
-\captionwidth=\dimen127
-\caption@tempdima=\dimen128
-\caption@indent=\dimen129
-\caption@parindent=\dimen130
-\caption@hangindent=\dimen131
+\captionmargin=\dimen135
+\captionmargin@=\dimen136
+\captionwidth=\dimen137
+\caption@tempdima=\dimen138
+\caption@indent=\dimen139
+\caption@parindent=\dimen140
+\caption@hangindent=\dimen141
 )
-\c@ContinuedFloat=\count119
+\c@ContinuedFloat=\count123
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1084,10 +1171,10 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcapti
 on.sty"
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-\c@subfigure=\count120
-\c@subtable=\count121
+\c@subfigure=\count124
+\c@subtable=\count125
 )
-\defbaselineskip=\skip53
+\defbaselineskip=\skip54
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang
 1.sty"
@@ -1101,82 +1188,71 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 .sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) (thesis.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
  (include/acknowledgements.aux) (include/resumen.aux)
 (include/abstract.aux) (include/glossary.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 85.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 85.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 87.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 87.
 
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\omltxmi.
 fd"
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 85.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 85.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 87.
 
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\omstxsy.
 fd"
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 85.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 85.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 87.
 
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\omxtxex.
 fd"
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 85.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 85.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 87.
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\utxexa.f
 d"
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 85.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 85.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 87.
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcm
 r.fd"
 File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 85.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 87.
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\ot1txr.f
 d"
 File: ot1txr.fd 2000/12/15 v3.1
 )
-\AtBeginShipoutBox=\box36
-
-("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.s
-ty"
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
-
-("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.c
-fg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 142.
-)
-Package hyperref Info: Link coloring ON on input line 85.
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring ON on input line 87.
 
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref
 .sty"
@@ -1186,11 +1262,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 tlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count122
+\c@section@level=\count126
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 87.
+LaTeX Info: Redefining \pageref on input line 87.
+LaTeX Info: Redefining \nameref on input line 87.
  (thesis.out) (thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
@@ -1199,67 +1275,67 @@ LaTeX Info: Redefining \nameref on input line 85.
 ("C:\Users\ZSeibar\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
 mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
-\scratchdimen=\dimen132
-\scratchbox=\box37
-\nofMPsegments=\count124
-\nofMParguments=\count125
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count126
-\MPscratchDim=\dimen133
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count127
+\scratchdimen=\dimen142
+\scratchbox=\box39
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen143
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks26
 )
-\c@lstlisting=\count129
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count133
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
 
 Most over/underfulls in first few pages are the fault of dalthesis.
 Ignore all them. If uncorrectable errors occur, notify staff.
 Package epstopdf Info: Source file: <images/isotipo_negro.eps>
-(epstopdf)                    date: 2015-08-03 08:07:18
+(epstopdf)                    date: 2015-08-03 07:07:18
 (epstopdf)                    size: 18232 bytes
 (epstopdf)             Output file: <images/isotipo_negro-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-08-03 08:07:18
+(epstopdf)                    date: 2015-08-03 07:07:18
 (epstopdf)                    size: 8421 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/isotipo_negro-eps-co
 nverted-to.pdf images/isotipo_negro.eps>
-(epstopdf)             \includegraphics on input line 104.
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
-<images/isotipo_negro-eps-converted-to.pdf, id=76, 692.5875pt x 504.88625pt>
+<images/isotipo_negro-eps-converted-to.pdf, id=96, 692.5875pt x 504.88625pt>
 File: images/isotipo_negro-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/isotipo_negro-eps-converted-to.pdf>
 Package pdftex.def Info: images/isotipo_negro-eps-converted-to.pdf used on inpu
-t line 104.
+t line 106.
 (pdftex.def)             Requested size: 128.79247pt x 93.89409pt.
  [1
 
 {C:/Users/ZSeibar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/
 isotipo_negro-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/logo_usm.eps>
-(epstopdf)                    date: 2015-08-03 08:07:18
+(epstopdf)                    date: 2015-08-03 07:07:18
 (epstopdf)                    size: 134932 bytes
 (epstopdf)             Output file: <images/logo_usm-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-03 08:07:18
+(epstopdf)                    date: 2015-08-03 07:07:18
 (epstopdf)                    size: 49720 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/logo_usm-eps-convert
 ed-to.pdf images/logo_usm.eps>
-(epstopdf)             \includegraphics on input line 104.
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/logo_usm-eps-converted-to.pdf, id=87, 591.20876pt x 428.60126pt>
+<images/logo_usm-eps-converted-to.pdf, id=107, 591.20876pt x 428.60126pt>
 File: images/logo_usm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/logo_usm-eps-converted-to.pdf>
 Package pdftex.def Info: images/logo_usm-eps-converted-to.pdf used on input lin
-e 104.
+e 106.
 (pdftex.def)             Requested size: 129.51604pt x 93.89409pt.
  [2 <./images/logo_usm-eps-converted-to.pdf>]
 Acknowledgements
@@ -1285,7 +1361,7 @@ Abstract
 
 
 ]
-\@defbaselineskip=\skip54
+\@defbaselineskip=\skip55
  (thesis.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1341,17 +1417,17 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-)
+ [9
+
+])
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [9
-
-]
+ [10]
 Abbreviations
 \openout2 = `include/glossary.aux'.
 
-(include/glossary.tex) [10
+(include/glossary.tex) [11
 
 
 ]
@@ -1440,7 +1516,7 @@ Package natbib Warning: Citation `Victor' on page 7 undefined on input line 75.
 Package natbib Warning: Citation `Victor' on page 8 undefined on input line 79.
 
 
-<images/trustprop.png, id=195, 724.20563pt x 542.025pt>
+<images/trustprop.png, id=247, 724.20563pt x 542.025pt>
 File: images/trustprop.png Graphic file (type png)
 
 <use images/trustprop.png>
@@ -1451,7 +1527,7 @@ Package pdftex.def Info: images/trustprop.png used on input line 85.
 Package natbib Warning: Citation `Victor' on page 9 undefined on input line 94.
 
 
-[9] <images/trustaggr.png, id=209, 724.20563pt x 542.025pt>
+[9] <images/trustaggr.png, id=261, 724.20563pt x 542.025pt>
 File: images/trustaggr.png Graphic file (type png)
 
 <use images/trustaggr.png>
@@ -1474,12 +1550,12 @@ xr/m/it/12 tems\OT1/txr/m/n/12 [CITA].
  []
 
 
-Overfull \hbox (94.00232pt too wide) in paragraph at lines 153--163
+Overfull \hbox (94.0023pt too wide) in paragraph at lines 153--163
  [][] 
  []
 
 [11]
-Overfull \hbox (94.00232pt too wide) in paragraph at lines 190--200
+Overfull \hbox (94.0023pt too wide) in paragraph at lines 190--200
 [][] 
  []
 
@@ -1496,7 +1572,7 @@ Package natbib Warning: Citation `Victor' on page 13 undefined on input line 20
 5.
 
 
-Overfull \hbox (94.00232pt too wide) in paragraph at lines 209--219
+Overfull \hbox (94.0023pt too wide) in paragraph at lines 209--219
 [][] 
  []
 
@@ -1509,7 +1585,7 @@ Package natbib Warning: Citation `Girgin' on page 13 undefined on input line 23
 Package natbib Warning: Citation `Victor' on page 14 undefined on input line 25
 0.
 
-[14] <images/trustrec.png, id=234, 596.98032pt x 357.58594pt>
+[14] <images/trustrec.png, id=287, 596.98032pt x 357.58594pt>
 File: images/trustrec.png Graphic file (type png)
 
 <use images/trustrec.png>
@@ -1536,42 +1612,69 @@ Package natbib Warning: Citation `Victor' on page 17 undefined on input line 31
 
 ) (include/propuesta.tex [17]
 Cap\'{\i }tulo 3.
-) (include/implementacion.tex [18
+[18
 
-]
+] [19] <images/grafoej1.png, id=323, 296.307pt x 142.73325pt>
+File: images/grafoej1.png Graphic file (type png)
+
+<use images/grafoej1.png>
+Package pdftex.def Info: images/grafoej1.png used on input line 46.
+(pdftex.def)             Requested size: 266.67383pt x 128.45871pt.
+ [20]
+<images/review_history.png, id=333, 537.80925pt x 330.63525pt>
+File: images/review_history.png Graphic file (type png)
+
+<use images/review_history.png>
+Package pdftex.def Info: images/review_history.png used on input line 54.
+(pdftex.def)             Requested size: 430.24797pt x 264.50856pt.
+ [21 <./images/grafoej1.png>]
+File: images/review_history.png Graphic file (type png)
+
+<use images/review_history.png>
+Package pdftex.def Info: images/review_history.png used on input line 76.
+(pdftex.def)             Requested size: 430.24797pt x 264.50856pt.
+ [22 <./images/review_history.png>] [23]
+[24] [25]) (include/implementacion.tex [26]
 Cap\'{\i }tulo 4.
-) (include/conclusiones.tex [19
+) (include/conclusiones.tex [27
 
-]) [20
+]) [28
 
 ]
 No file thesis.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
 (thesis.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
  (include/acknowledgements.aux) (include/resumen.aux)
 (include/abstract.aux) (include/glossary.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1DD7B6BF62E62256CD85F05A3919A11C;1080.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: C3ABA5035475E1389286F0D05A73AE72;1480
+(rerunfilecheck)             After:  A4A6519D2408F88D5A0AE20EF1A4FE0C;1483.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 11536 strings out of 493634
- 171280 string characters out of 3134423
- 275448 words of memory out of 3000000
- 14564 multiletter control sequences out of 15000+200000
+ 12775 strings out of 493634
+ 189554 string characters out of 3134423
+ 314966 words of memory out of 3000000
+ 15720 multiletter control sequences out of 15000+200000
  63275 words of font info for 143 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,9n,39p,740b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,11n,92p,910b,614s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1590,9 +1693,9 @@ r/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/
 ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
 Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on thesis.pdf (30 pages, 499043 bytes).
+Output written on thesis.pdf (39 pages, 552928 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
 
