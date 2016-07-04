@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.13)  5 JUN 2016 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.13)  27 JUN 2016 23:01
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1516,7 +1516,7 @@ Package natbib Warning: Citation `Victor' on page 7 undefined on input line 75.
 Package natbib Warning: Citation `Victor' on page 8 undefined on input line 79.
 
 
-<images/trustprop.png, id=247, 724.20563pt x 542.025pt>
+<images/trustprop.png, id=257, 724.20563pt x 542.025pt>
 File: images/trustprop.png Graphic file (type png)
 
 <use images/trustprop.png>
@@ -1527,7 +1527,7 @@ Package pdftex.def Info: images/trustprop.png used on input line 85.
 Package natbib Warning: Citation `Victor' on page 9 undefined on input line 94.
 
 
-[9] <images/trustaggr.png, id=261, 724.20563pt x 542.025pt>
+[9] <images/trustaggr.png, id=271, 724.20563pt x 542.025pt>
 File: images/trustaggr.png Graphic file (type png)
 
 <use images/trustaggr.png>
@@ -1585,7 +1585,7 @@ Package natbib Warning: Citation `Girgin' on page 13 undefined on input line 23
 Package natbib Warning: Citation `Victor' on page 14 undefined on input line 25
 0.
 
-[14] <images/trustrec.png, id=287, 596.98032pt x 357.58594pt>
+[14] <images/trustrec.png, id=297, 596.98032pt x 357.58594pt>
 File: images/trustrec.png Graphic file (type png)
 
 <use images/trustrec.png>
@@ -1614,14 +1614,14 @@ Package natbib Warning: Citation `Victor' on page 17 undefined on input line 31
 Cap\'{\i }tulo 3.
 [18
 
-] [19] <images/grafoej1.png, id=323, 296.307pt x 142.73325pt>
+] [19] <images/grafoej1.png, id=333, 296.307pt x 142.73325pt>
 File: images/grafoej1.png Graphic file (type png)
 
 <use images/grafoej1.png>
 Package pdftex.def Info: images/grafoej1.png used on input line 46.
 (pdftex.def)             Requested size: 266.67383pt x 128.45871pt.
  [20]
-<images/review_history.png, id=333, 537.80925pt x 330.63525pt>
+<images/review_history.png, id=343, 537.80925pt x 330.63525pt>
 File: images/review_history.png Graphic file (type png)
 
 <use images/review_history.png>
@@ -1634,11 +1634,22 @@ File: images/review_history.png Graphic file (type png)
 Package pdftex.def Info: images/review_history.png used on input line 76.
 (pdftex.def)             Requested size: 430.24797pt x 264.50856pt.
  [22 <./images/review_history.png>] [23]
-[24] [25]) (include/implementacion.tex [26]
-Cap\'{\i }tulo 4.
-) (include/conclusiones.tex [27
+<images/recc_funct.png, id=360, 667.89525pt x 350.5095pt>
+File: images/recc_funct.png Graphic file (type png)
 
-]) [28
+<use images/recc_funct.png>
+Package pdftex.def Info: images/recc_funct.png used on input line 100.
+(pdftex.def)             Requested size: 534.31693pt x 280.40799pt.
+
+Overfull \hbox (93.29921pt too wide) in paragraph at lines 100--101
+ [][] 
+ []
+
+[24 <./images/recc_funct.png>]) (include/implementacion.tex [25]
+Cap\'{\i }tulo 4.
+[26
+
+] [27]) (include/conclusiones.tex [28] [29]) [30
 
 ]
 No file thesis.bbl.
@@ -1656,22 +1667,15 @@ LaTeX Info: Redefining \% on input line 28.
 (include/abstract.aux) (include/glossary.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: C3ABA5035475E1389286F0D05A73AE72;1480
-(rerunfilecheck)             After:  A4A6519D2408F88D5A0AE20EF1A4FE0C;1483.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 4B7CAEABD251A1368CEBD0858006A7FF;1483.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 12775 strings out of 493634
- 189554 string characters out of 3134423
- 314966 words of memory out of 3000000
- 15720 multiletter control sequences out of 15000+200000
+ 12792 strings out of 493634
+ 189834 string characters out of 3134423
+ 313966 words of memory out of 3000000
+ 15727 multiletter control sequences out of 15000+200000
  63275 words of font info for 143 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  53i,11n,92p,910b,614s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1693,9 +1697,9 @@ r/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/
 ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
 Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on thesis.pdf (39 pages, 552928 bytes).
+Output written on thesis.pdf (41 pages, 581736 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 

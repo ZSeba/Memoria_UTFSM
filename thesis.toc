@@ -21,5 +21,7 @@
 \contentsline {section}{\numberline {3.3}Implementaci\IeC {\'o}n de las caracter\IeC {\'\i }sticas}{20}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Estimaci\IeC {\'o}n de trust}{20}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Estimaci\IeC {\'o}n de \IeC {\'\i }tem recomendado}{22}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}Implementaci\'on}{27}{chapter.4}
-\contentsline {chapter}{Conclusiones}{28}{chapter*.22}
+\contentsline {subsubsection}{La funci\IeC {\'o}n ''recommend''}{23}{section*.18}
+\contentsline {subsubsection}{La funci\IeC {\'o}n ''predict\_user\_score''}{25}{section*.20}
+\contentsline {chapter}{\numberline {4}Implementaci\'on}{26}{chapter.4}
+\contentsline {chapter}{Conclusiones}{30}{chapter*.27}
