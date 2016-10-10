@@ -1,4 +1,34 @@
-\chapter{Implementaci\'on}
+\chapter{Implementaci\'on de la Solución.}
+
+\section{Arquitectura final de la solución}
+
+Finalmente, se optó por utilizar el framework MVC Ruby on Rails para el desarrollo de la aplicación web, conocida por su robustez y facilidad de uso.
+Para la base de datos, se optó por Neo4j, ya que posee una gran comunidad y es la que recibe más soporte, de las opciones posibles. 
+
+%falta explicar mas la arqui
+
+\section{Caso de ejemplo}
+
+Cuando un usuario ingresa al sistema, lo primero que se ve es la sección de ítems recomendados, 
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.7]{images/screen2.png}
+\caption{La sección de items recomendados para el usuario, ordenados según el puntaje predicho.}
+\end{figure} 
+
+El ítem de mayor tamaño es el que obtuvo la mayor calificación predicha. Cuando el usuario selecciona ese lugar, se ve la siguiente pantalla.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.7]{images/screen1.png}
+\caption{La vista del Centro Cultural GAM, donde se puede ver una breve descripción del lugar, junto con lsa opiniones de usuarios que visitaron el lugar.}
+\end{figure}  
+
+
+
+
+A continuación se detallará el proceso de implementación del sistema. Junto con un ejemplo detallado de la evolución de las variables involucradas y la forma en que se llega a el resultado final, la lista de ítems recomendados al usuario.
 
 Para facilitar la comprensión del funcionamiento del algoritmo, se va a usar el siguiente ejemplo:
 
@@ -21,11 +51,15 @@ Sam          & 1 &  &   &  &  & 4  & 3 \\
 
 \end{tabular}
 \end{adjustbox}
-\caption{Las estrellas que dan los usuarios A, B, C y D a distintas películas}
-
-%otra screenshot de algún item con todas sus reviews, y con la pantalla para escribir una
+\caption{Las estrellas que dan los usuarios A, B, C y D a distintas películas} 
 
 \end{figure}
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.8]{images/examplegraph.png}
+\caption{El grafo que se produce al relacionar la reseñas de los usuarios del sistema y los lugares disponibles para visitar}
+\end{figure}  
 
 En este ejemplo, el usuario que entra al sistema y cuyos puntajes son predichos se conoce como consumidor, en este caso es el Usuario 1.
 
@@ -52,8 +86,6 @@ Sam          & 1 &  &   &  &  & 4  & 3 \\
 \caption{La misma tabla de la figura x, imaginar que se quiere conocer el puntaje que Juan dará al Museo de Bellas Artes, para eso se deben tener en cuenta sólo los usuarios que hayan visitado este lugar, o sea, Perla y Inés.}
 
 \end{figure}
-
-El proceso de calcular el puntaje predicho para cada ítem se conoce como sesión. Como se puede notar, cada ítem candidato implica una sesión de recomendación.
 
 Comenzando por el primer ítem candidato, al iniciar la sesión, el sistema consulta por todas las reviews que hayan sido escritas sobre el ítem actual. Los usuarios que escribieron estas reviews se conocen como productores.
 

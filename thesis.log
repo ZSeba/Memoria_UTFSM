@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.13)  27 JUN 2016 23:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.13)  10 OCT 2016 15:14
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1298,17 +1298,17 @@ LaTeX Info: Redefining \% on input line 89.
 Most over/underfulls in first few pages are the fault of dalthesis.
 Ignore all them. If uncorrectable errors occur, notify staff.
 Package epstopdf Info: Source file: <images/isotipo_negro.eps>
-(epstopdf)                    date: 2015-08-03 07:07:18
+(epstopdf)                    date: 2016-07-03 20:29:32
 (epstopdf)                    size: 18232 bytes
 (epstopdf)             Output file: <images/isotipo_negro-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-08-03 07:07:18
+(epstopdf)                    date: 2016-07-03 20:29:32
 (epstopdf)                    size: 8421 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/isotipo_negro-eps-co
 nverted-to.pdf images/isotipo_negro.eps>
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
-<images/isotipo_negro-eps-converted-to.pdf, id=96, 692.5875pt x 504.88625pt>
+<images/isotipo_negro-eps-converted-to.pdf, id=121, 692.5875pt x 504.88625pt>
 File: images/isotipo_negro-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/isotipo_negro-eps-converted-to.pdf>
@@ -1320,17 +1320,17 @@ t line 106.
 {C:/Users/ZSeibar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/
 isotipo_negro-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/logo_usm.eps>
-(epstopdf)                    date: 2015-08-03 07:07:18
-(epstopdf)                    size: 134932 bytes
+(epstopdf)                    date: 2016-07-03 20:29:32
+(epstopdf)                    size: 132818 bytes
 (epstopdf)             Output file: <images/logo_usm-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-03 07:07:18
+(epstopdf)                    date: 2016-07-03 20:29:32
 (epstopdf)                    size: 49720 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/logo_usm-eps-convert
 ed-to.pdf images/logo_usm.eps>
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/logo_usm-eps-converted-to.pdf, id=107, 591.20876pt x 428.60126pt>
+<images/logo_usm-eps-converted-to.pdf, id=132, 591.20876pt x 428.60126pt>
 File: images/logo_usm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/logo_usm-eps-converted-to.pdf>
@@ -1427,119 +1427,122 @@ LaTeX Info: Redefining \% on input line 2.
 Abbreviations
 \openout2 = `include/glossary.aux'.
 
-(include/glossary.tex) [11
+(include/glossary.tex <images/grafo.png, id=267, 433.62pt x 295.85532pt>
+File: images/grafo.png Graphic file (type png)
+
+<use images/grafo.png>
+Package pdftex.def Info: images/grafo.png used on input line 15.
+(pdftex.def)             Requested size: 346.89647pt x 236.68456pt.
+) [11
 
 
-]
+] [12 <./images/grafo.png>]
 Las p\IeC {\'a}ginas del prefacio de la UTFSM_Tesis han sido escritas
 (include/introduccion.tex) (include/definicion.tex [1
 
 
-]
+] [2])
+(include/estado_arte.tex [3]
 Cap\'{\i }tulo 1.
-) (include/estado_arte.tex [2
 
-]
-Cap\'{\i }tulo 2.
-
-Package natbib Warning: Citation `Aghaei2012' on page 3 undefined on input line
+Package natbib Warning: Citation `Aghaei2012' on page 4 undefined on input line
  4.
 
-[3
+[4
 
 ]
 
-Package natbib Warning: Citation `Marsh1994' on page 4 undefined on input line 
+Package natbib Warning: Citation `Marsh1994' on page 5 undefined on input line 
 21.
 
 
-Package natbib Warning: Citation `Medic2012' on page 4 undefined on input line 
+Package natbib Warning: Citation `Medic2012' on page 5 undefined on input line 
 26.
 
 
-Package natbib Warning: Citation `Robillard2010' on page 4 undefined on input l
+Package natbib Warning: Citation `Robillard2010' on page 5 undefined on input l
 ine 28.
-
-[4]
-
-Package natbib Warning: Citation `Marsh1994' on page 5 undefined on input line 
-30.
-
-
-Package natbib Warning: Citation `Marsh1994' on page 5 undefined on input line 
-35.
-
-
-Package natbib Warning: Citation `Medic2012' on page 5 undefined on input line 
-39.
 
 [5]
 
-Package natbib Warning: Citation `Medic2012' on page 6 undefined on input line 
-45.
+Package natbib Warning: Citation `Marsh1994' on page 6 undefined on input line 
+30.
 
 
-Package natbib Warning: Citation `Victor' on page 6 undefined on input line 47.
-
-
-
-Package natbib Warning: Citation `Medic2012' on page 6 undefined on input line 
-48.
-
-
-Package natbib Warning: Citation `Victor' on page 6 undefined on input line 48.
-
-
-
-Package natbib Warning: Citation `Artz2007' on page 6 undefined on input line 4
-8.
+Package natbib Warning: Citation `Marsh1994' on page 6 undefined on input line 
+35.
 
 
 Package natbib Warning: Citation `Medic2012' on page 6 undefined on input line 
-60.
+39.
 
 [6]
 
 Package natbib Warning: Citation `Medic2012' on page 7 undefined on input line 
-64.
+45.
 
 
-Package natbib Warning: Citation `Victor' on page 7 undefined on input line 68.
+Package natbib Warning: Citation `Victor' on page 7 undefined on input line 47.
 
 
 
-Package natbib Warning: Citation `Victor' on page 7 undefined on input line 75.
+Package natbib Warning: Citation `Medic2012' on page 7 undefined on input line 
+48.
 
+
+Package natbib Warning: Citation `Victor' on page 7 undefined on input line 48.
+
+
+
+Package natbib Warning: Citation `Artz2007' on page 7 undefined on input line 4
+8.
+
+
+Package natbib Warning: Citation `Medic2012' on page 7 undefined on input line 
+60.
 
 [7]
 
-Package natbib Warning: Citation `Victor' on page 8 undefined on input line 79.
+Package natbib Warning: Citation `Medic2012' on page 8 undefined on input line 
+64.
 
 
-<images/trustprop.png, id=257, 724.20563pt x 542.025pt>
+Package natbib Warning: Citation `Victor' on page 8 undefined on input line 68.
+
+
+
+Package natbib Warning: Citation `Victor' on page 8 undefined on input line 75.
+
+
+[8]
+
+Package natbib Warning: Citation `Victor' on page 9 undefined on input line 79.
+
+
+<images/trustprop.png, id=325, 724.20563pt x 542.025pt>
 File: images/trustprop.png Graphic file (type png)
 
 <use images/trustprop.png>
 Package pdftex.def Info: images/trustprop.png used on input line 85.
 (pdftex.def)             Requested size: 217.26337pt x 162.60875pt.
- [8 <./images/trustprop.png>]
+ [9 <./images/trustprop.png>]
 
-Package natbib Warning: Citation `Victor' on page 9 undefined on input line 94.
+Package natbib Warning: Citation `Victor' on page 10 undefined on input line 94
+.
 
-
-[9] <images/trustaggr.png, id=271, 724.20563pt x 542.025pt>
+[10] <images/trustaggr.png, id=337, 724.20563pt x 542.025pt>
 File: images/trustaggr.png Graphic file (type png)
 
 <use images/trustaggr.png>
 Package pdftex.def Info: images/trustaggr.png used on input line 127.
 (pdftex.def)             Requested size: 217.26337pt x 162.60875pt.
- [10 <./images/trustaggr.png>]
+ [11 <./images/trustaggr.png>]
 
-Package natbib Warning: Citation `Resnick1997' on page 11 undefined on input li
+Package natbib Warning: Citation `Resnick1997' on page 12 undefined on input li
 ne 141.
 
 
-Package natbib Warning: Citation `Girgin' on page 11 undefined on input line 14
+Package natbib Warning: Citation `Girgin' on page 12 undefined on input line 14
 1.
 
 
@@ -1554,102 +1557,146 @@ Overfull \hbox (94.0023pt too wide) in paragraph at lines 153--163
  [][] 
  []
 
-[11]
-Overfull \hbox (94.0023pt too wide) in paragraph at lines 190--200
-[][] 
- []
-
+[12]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12]
-
-Package natbib Warning: Citation `Girgin' on page 13 undefined on input line 20
-5.
-
-
-Package natbib Warning: Citation `Victor' on page 13 undefined on input line 20
-5.
-
-
-Overfull \hbox (94.0023pt too wide) in paragraph at lines 209--219
-[][] 
- []
-
-
-Package natbib Warning: Citation `Girgin' on page 13 undefined on input line 23
-0.
-
 [13]
 
-Package natbib Warning: Citation `Victor' on page 14 undefined on input line 25
+Package natbib Warning: Citation `Girgin' on page 14 undefined on input line 20
+5.
+
+
+Package natbib Warning: Citation `Victor' on page 14 undefined on input line 20
+5.
+
+
+Package natbib Warning: Citation `Girgin' on page 14 undefined on input line 23
 0.
 
-[14] <images/trustrec.png, id=297, 596.98032pt x 357.58594pt>
+[14]
+
+Package natbib Warning: Citation `Victor' on page 15 undefined on input line 25
+0.
+
+<images/trustrec.png, id=358, 596.98032pt x 357.58594pt>
 File: images/trustrec.png Graphic file (type png)
 
 <use images/trustrec.png>
 Package pdftex.def Info: images/trustrec.png used on input line 256.
 (pdftex.def)             Requested size: 179.09547pt x 107.2766pt.
+ [15]
 
-
-Package natbib Warning: Citation `Victor' on page 15 undefined on input line 26
+Package natbib Warning: Citation `Victor' on page 16 undefined on input line 26
 6.
 
-[15 <./images/trustrec.png>]
+[16 <./images/trustrec.png>]
 
-Package natbib Warning: Citation `Victor' on page 16 undefined on input line 29
+Package natbib Warning: Citation `Victor' on page 17 undefined on input line 29
 0.
 
-[16]
+[17]
 
-Package natbib Warning: Citation `Victor' on page 17 undefined on input line 30
+Package natbib Warning: Citation `Victor' on page 18 undefined on input line 30
 4.
 
 
-Package natbib Warning: Citation `Victor' on page 17 undefined on input line 31
+Package natbib Warning: Citation `Victor' on page 18 undefined on input line 31
 2.
 
-) (include/propuesta.tex [17]
-Cap\'{\i }tulo 3.
-[18
+) (include/propuesta.tex [18]
+Cap\'{\i }tulo 2.
 
-] [19] <images/grafoej1.png, id=333, 296.307pt x 142.73325pt>
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 8.
+
+[19
+
+] [20] [21] <images/grafoej1.png, id=409, 296.307pt x 142.73325pt>
 File: images/grafoej1.png Graphic file (type png)
 
 <use images/grafoej1.png>
-Package pdftex.def Info: images/grafoej1.png used on input line 46.
+Package pdftex.def Info: images/grafoej1.png used on input line 52.
 (pdftex.def)             Requested size: 266.67383pt x 128.45871pt.
- [20]
-<images/review_history.png, id=343, 537.80925pt x 330.63525pt>
+
+<images/review_history.png, id=410, 537.80925pt x 330.63525pt>
 File: images/review_history.png Graphic file (type png)
 
 <use images/review_history.png>
-Package pdftex.def Info: images/review_history.png used on input line 54.
+Package pdftex.def Info: images/review_history.png used on input line 60.
 (pdftex.def)             Requested size: 430.24797pt x 264.50856pt.
- [21 <./images/grafoej1.png>]
+ [22 <./images/grafoej1.png>] [23 <./images/review_history.png>]
 File: images/review_history.png Graphic file (type png)
-
-<use images/review_history.png>
-Package pdftex.def Info: images/review_history.png used on input line 76.
+ <use images/review_history.png>
+Package pdftex.def Info: images/review_history.png used on input line 82.
 (pdftex.def)             Requested size: 430.24797pt x 264.50856pt.
- [22 <./images/review_history.png>] [23]
-<images/recc_funct.png, id=360, 667.89525pt x 350.5095pt>
+ [24]
+<images/recc_funct.png, id=426, 667.89525pt x 350.5095pt>
 File: images/recc_funct.png Graphic file (type png)
 
 <use images/recc_funct.png>
-Package pdftex.def Info: images/recc_funct.png used on input line 100.
-(pdftex.def)             Requested size: 534.31693pt x 280.40799pt.
+Package pdftex.def Info: images/recc_funct.png used on input line 106.
+(pdftex.def)             Requested size: 434.12677pt x 227.82848pt.
+ [25 <./images/recc_funct.png>] [26]
+<images/flowchart.png, id=438, 1090.0725pt x 1752.5475pt>
+File: images/flowchart.png Graphic file (type png)
 
-Overfull \hbox (93.29921pt too wide) in paragraph at lines 100--101
+<use images/flowchart.png>
+Package pdftex.def Info: images/flowchart.png used on input line 126.
+(pdftex.def)             Requested size: 381.53108pt x 613.40082pt.
+
+
+LaTeX Warning: Float too large for page by 37.17004pt on input line 128.
+
+<images/screen2.png, id=439, 696.80325pt x 539.01375pt>
+File: images/screen2.png Graphic file (type png)
+
+<use images/screen2.png>
+Package pdftex.def Info: images/screen2.png used on input line 146.
+(pdftex.def)             Requested size: 487.75896pt x 377.30704pt.
+
+Overfull \hbox (46.74124pt too wide) in paragraph at lines 146--147
  [][] 
  []
 
-[24 <./images/recc_funct.png>]) (include/implementacion.tex [25]
-Cap\'{\i }tulo 4.
-[26
+<images/screen1.png, id=440, 521.5485pt x 539.01375pt>
+File: images/screen1.png Graphic file (type png)
 
-] [27]) (include/conclusiones.tex [28] [29]) [30
+<use images/screen1.png>
+Package pdftex.def Info: images/screen1.png used on input line 154.
+(pdftex.def)             Requested size: 365.08145pt x 377.30704pt.
+
+<images/examplegraph.png, id=441, 569.7285pt x 373.395pt>
+File: images/examplegraph.png Graphic file (type png)
+
+<use images/examplegraph.png>
+Package pdftex.def Info: images/examplegraph.png used on input line 187.
+(pdftex.def)             Requested size: 455.78342pt x 298.7164pt.
+
+Overfull \hbox (14.7657pt too wide) in paragraph at lines 187--188
+ [][] 
+ []
+
+[27] [28 <./images/flowchart.png>] [29 <./images/screen2.png>] [30 <./images/sc
+reen1.png>] [31 <./images/examplegraph.png>] [32]) (include/validacion.tex
+[33]
+Cap\'{\i }tulo 3.
+<images/rate.png, id=477, 673.3155pt x 466.1415pt>
+File: images/rate.png Graphic file (type png)
+ <use images/rate.png>
+Package pdftex.def Info: images/rate.png used on input line 15.
+(pdftex.def)             Requested size: 437.64989pt x 302.98837pt.
+
+[34
+
+] <images/sort.png, id=483, 498.06075pt x 313.17pt>
+File: images/sort.png Graphic file (type png)
+ <use images/sort.png>
+Package pdftex.def Info: images/sort.png used on input line 25.
+(pdftex.def)             Requested size: 373.54463pt x 234.8769pt.
+)
+(include/conclusiones.tex [35 <./images/rate.png>] [36 <./images/sort.png>])
+[37
 
 ]
 No file thesis.bbl.
@@ -1668,19 +1715,34 @@ LaTeX Info: Redefining \% on input line 28.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4B7CAEABD251A1368CEBD0858006A7FF;1483.
+(rerunfilecheck)             Checksum: D1E3E51DFF5FB456BF005486B495352C;2019.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 12792 strings out of 493634
- 189834 string characters out of 3134423
- 313966 words of memory out of 3000000
- 15727 multiletter control sequences out of 15000+200000
+ 12861 strings out of 493634
+ 190973 string characters out of 3134423
+ 322966 words of memory out of 3000000
+ 15763 multiletter control sequences out of 15000+200000
  63275 words of font info for 143 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 53i,11n,92p,910b,614s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+ 53i,11n,92p,798b,616s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -1697,9 +1759,9 @@ r/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/
 ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
 Users/ZSeibar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on thesis.pdf (41 pages, 581736 bytes).
+Output written on thesis.pdf (49 pages, 2754527 bytes).
 PDF statistics:
- 452 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 560 PDF objects out of 1000 (max. 8388607)
+ 139 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 

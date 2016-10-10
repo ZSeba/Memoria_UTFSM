@@ -1,8 +1,12 @@
 \chapter{Propuesta}
 
-Se propone el desarrollo de un sistema que incorpore elementos, tanto de la computación basada en ''trust'' como las de web social, más específicamente, los sistemas recomendadores. El dominio escogido para este sistema es el turismo en la región metropolitana. Actualmente existe una gran variedad de centros culturales y otros lugares interesantes para visitar, sin embargo, un visitante no tiene tiempo para visitarlos todos y además puede tener preferencia sobre algún tipo de lugar por sobre otros. La idea es, primero, ofrecer una plataforma en la que un usuario pueda encontrar lugares culturales cercanos y poder dejar una reseña escrita que describa brevemente la experiencia de la visita. Por otra parte, se espera que las opiniones de la comunidad que use este sistema permitan predecir los lugares que serán del gusto del usuario objetivo. 
+Se propone el desarrollo de un sistema que limite las opciones del usuario a sólo las que se consideren relevantes para sus intereses y las ordene según la preferencia estimada. Ésta incorpora elementos, tanto de la computación basada en ''trust'' como las de web social, más específicamente, los sistemas recomendadores. El dominio escogido para este sistema es el turismo en la región metropolitana. Actualmente existe una gran variedad de centros culturales y otros lugares interesantes para visitar, sin embargo, un visitante no tiene tiempo para visitarlos todos y además puede tener preferencia sobre algún tipo de lugar por sobre otros. 
 
-\section{Características}
+La idea es, primero, ofrecer una plataforma en la que un usuario pueda encontrar lugares culturales cercanos y poder dejar una reseña escrita que describa brevemente la experiencia de la visita. Por otra parte, se espera que las opiniones de la comunidad que use este sistema permitan predecir los lugares que serán del gusto del usuario objetivo. 
+
+
+\subsection{Características}
+\label{subsection:caracteristicas}
 Las principales características que incluye el sistema ''VISIT CHILE'' son 8, entre todas abarcan conceptos de web social, geo-localización y ''trust computing''.
 
 \begin{enumerate}
@@ -16,9 +20,11 @@ Las principales características que incluye el sistema ''VISIT CHILE'' son 8, e
 \item{Funcionalidad de buscar lugares según la cercanía geográfica}
 \end{enumerate}
 
-\section{Arquitectura de la solución} 
+\subsection{Arquitectura de la solución propuesta} 
 
-El sistema ''Explore Chile'' (nombre temporal) consiste en una aplicación web desarrollada utilizando el framework Ruby on Rails, el cual utiliza el paradigma MVC (Modelo, Vista, Controlador). Para almacenar todos los datos (usuarios, lugares, reseñas y trust) Se utilizó Neo4j, una base de datos NoSQL diseñada para almacenar grafos. Neo4j permite unificar la lógica de trust y la del sistema de recomendación, diseñando el sistema completo como un grafo. En este grafo existen tres tipos de nodos.
+El sistema ''Visite Chile'' (nombre temporal) consiste en una aplicación web, accesible desde dispositivos móviles y computadores de escritorio. Para almacenar los datos de usuarios, lugares y opiniones, se propone una base de datos de grafos, que permita representar las relaciones entre usuarios y lugares (un usuario puede opinar sobre un lugar o sobre otros usuarios.) y facilitar el cálculo de trust computacional. 
+
+Para este grafo, se propone la siguiente nomenclatura:
 
 \begin{enumerate}
 \item{Los de color azul representan a los usuarios, quienes son los que dejarán sus opiniones respecto a los lugares que visitan.}
@@ -33,13 +39,13 @@ Todo grafo debe tener, además de nodos, arcos, en este caso, representan las re
 \item{La relación trust es entre un usuario y otro, indica el nivel de confianza que uno hacia el otro, el contenido de este arco es un valor que intenta representar el nivel de confianza, un nivel cero significa que no existe confianza, mientras que un nivel 1 indica confianza total. Por defecto el valor asignado es 0.5}
 \end{enumerate}
 
-\section{Implementación de las características}
+\subsection{Propuesta para implementación de las características}
 
-En la sección X se hizo un listado de las características que posee el sistema. A continuación se detallará el diseño e implementación de las características anteriormente nombradas.
+En la sección \ref{subsection:caracteristicas} se hizo un listado de las características que posee el sistema. A continuación se detallará el diseño e implementación de las características anteriormente nombradas.
 
 \subsection{Estimación de trust} 
 
-Una de las características que hace posible todo es la de escribir reviews. Un usuario registrado puede acceder a cualquier ítem de la base de datos y, si no lo ha hecho ya, escribir una review sobre el lugar que describe el ítem, junto con su puntaje en estrellas, del 1 al 5.
+Una de las características que hará posible todo es la de escribir reviews. Un usuario registrado podrá acceder a cualquier ítem de la base de datos y, si no lo ha hecho ya, escribir una review sobre el lugar que describe el ítem, junto con su puntaje en estrellas, del 1 al 5.
 
 \begin{figure}[hbtp]
 \centering
@@ -47,7 +53,7 @@ Una de las características que hace posible todo es la de escribir reviews. Un 
 \caption{Un ejemplo sencillo de los grafos que genera el sistema. Los nodos azules representan usuarios, mientras que los nodos verdes representan los ítems (lugares culturales) a evaluar. El arco que une al Usuario 1 con el Item 1 es la reseña (Review) que le da el usuario al ítem.}
 \end{figure}
 
-Ya que el usario pertenecerá a una amplia comunidad, repartida entre varias comunas de la RM, no es posible garantizar que conozca personalmente a cada otro usuario del sistema. Además, dado que la información disponible sobre otras personas es limitada, ya que la única forma de interacción entre usuario que se permite es la escritura de reviews, se hace apropiado que se estime la confianza según el nivel de acuerdo que exista entre las opiniones de los usarios. Por lo tanto, se implementó un sistema que permite valorar como útil o poco útil la opinión de otro usuario. El usuario puede hacer ésto al hacer clic en la mano con dedo pulgar hacia arriba o la que apunta hacia abajo.
+Ya que el usario pertenecerá a una amplia comunidad, repartida entre varias comunas de la RM, no es posible garantizar que conozca personalmente a cada otro usuario del sistema. Además, dado que la información disponible sobre otras personas es limitada, ya que la única forma de interacción entre usuario que se permite es la escritura de reviews, se hace apropiado que se estime la confianza según el nivel de acuerdo que exista entre las opiniones de los usarios. Por lo tanto, se implementará un sistema que permite valorar como útil o poco útil la opinión de otro usuario. El usuario puede hacer ésto al hacer clic en la mano con dedo pulgar hacia arriba o la que apunta hacia abajo.
 
 \begin{figure}[hbtp]
 \centering
@@ -55,12 +61,12 @@ Ya que el usario pertenecerá a una amplia comunidad, repartida entre varias com
 \caption{Diagrama de interacción entre el usuario, los controladores y la base de datos}
 \end{figure}
 
-Para ejemplificar, se utilizarán 3 usuarios de ejemplo: Usuarios A y B
+Para ejemplificar, se utilizarán 2 usuarios de ejemplo: Usuarios A y B
 
 Suponer que el Usuario A ingresa a la vista de un item arbitrario, dentro del cual hay sólo una reseña, escrita por el usuario B. Ahora imaginar que el usuario A está de acuerdo con lo que el usuario B escribió y decide valorar positivamente su reseña. A partir de ésto hay dos casos posibles:
 
 \begin{enumerate}
-\item{Si el usuario A y el usuario B no tenían relación de trust existente, se crea una entre ambos, con el valor por defecto, 0.5}
+\item{Si el usuario A y el usuario B no tenían relación de trust existente, se creará un enlace entre ambos, con el valor por defecto, 0.5}
 \item{Si el usuario A y el usuario B ya tenían una relación de trust, ésta se refuerza y se aumenta el valor de trust de A hacia B en 0.1. Si la valoración hubiese sido negativa, se habría restado 0.1 al trust de A a B.}
 \end{enumerate}
 
@@ -97,7 +103,7 @@ Lo primero que hace este algoritmo es consultar por todos los ítems que se teng
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[scale=0.8]{images/recc_funct.png}
+\includegraphics[scale=0.65]{images/recc_funct.png}
 \caption{Diagrama de interacción entre el usuario, los controladores y la base de datos}
 \end{figure}
 
@@ -113,9 +119,181 @@ Acá es donde se utiliza el algoritmo de collaborative filtering (ver estado del
 
 En el momento de determinar la lista de consumidores, el sistema hace un filtrado, según el valor de trust que exista entre el consumidor y cada uno de los productores, si el valor de trust es menor a 0.5, el productor queda descartado. Esto permite que el sistema pueda entregar ítems recomendados que se aproximen mejor a los gustos del consumidor (Teniendo en cuenta a usuarios con gustos similares y con buena reputación). 
 
-   
+\newpage
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.35]{images/flowchart.png}
+\caption{Diagrama de flujo del comportamiento esperado del sistema. Uso de las funciones recommend y predict\_user\_score}
+\end{figure}   
 
 
+\subsection{Implementaci\'on de la Solución.}
+
+\subsubsection{Arquitectura final de la solución}
+
+Finalmente, se optó por utilizar el framework MVC Ruby on Rails para el desarrollo de la aplicación web, conocida por su robustez y facilidad de uso.
+Para la base de datos, se optó por Neo4j, ya que posee una gran comunidad y es la que recibe más soporte, de las opciones posibles. 
+
+%falta explicar mas la arqui
+
+\subsubsection{Caso de ejemplo}
+
+Cuando un usuario ingresa al sistema, lo primero que se ve es la sección de ítems recomendados, 
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.7]{images/screen2.png}
+\caption{La sección de items recomendados para el usuario, ordenados según el puntaje predicho.}
+\end{figure} 
+
+El ítem de mayor tamaño es el que obtuvo la mayor calificación predicha. Cuando el usuario selecciona ese lugar, se ve la siguiente pantalla.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.7]{images/screen1.png}
+\caption{La vista del Centro Cultural GAM, donde se puede ver una breve descripción del lugar, junto con lsa opiniones de usuarios que visitaron el lugar.}
+\end{figure}  
+
+A continuación se detallará el proceso de implementación del sistema. Junto con un ejemplo detallado de la evolución de las variables involucradas y la forma en que se llega a el resultado final, la lista de ítems recomendados al usuario.
+
+Para facilitar la comprensión del funcionamiento del algoritmo, se va a usar el siguiente ejemplo:
+
+\begin{figure}
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l*{6}{c}r}
+                  & Plaza de Armas & Cerro Sta. Lucia & Cerro San Cristobal & Museo de Bellas Artes & Quinta Normal  & Teatro Municipal & Centro GAM \\
+\hline
+Juan          & 5 & 4 & 2 &   & 1 &   &   \\
+\hline
+Ignacio       & 3 &   & 2 &   & 5 &   & 4 \\
+\hline
+Perla         & 3 & 3 &   & 1 & 4 & 3 &   \\
+\hline
+Inés          & 5 & 5 &   & 1 & 2 &   & 5 \\
+\hline
+Sam          & 1 &  &   &  &  & 4  & 3 \\
+
+
+\end{tabular}
+\end{adjustbox}
+\caption{Las estrellas que dan los usuarios A, B, C y D a distintas películas} 
+
+\end{figure}
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.8]{images/examplegraph.png}
+\caption{El grafo que se produce al relacionar la reseñas de los usuarios del sistema y los lugares disponibles para visitar}
+\end{figure}  
+
+En este ejemplo, el usuario que entra al sistema y cuyos puntajes son predichos se conoce como consumidor, en este caso es el Usuario 1.
+
+Cada ítem para el cual el consumidor aún no ha escrito una review y que se encuentre a cierta distancia geográfica es un potencial ítem recomendado, pero antes es necesario conocer qué puntaje le asignaría el consumidor.
+
+\begin{figure}
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{l*{6}{c}r}
+                  & Plaza de Armas & Cerro Sta. Lucia & Cerro San Cristobal & Museo de Bellas Artes & Quinta Normal  & Teatro Municipal & Centro GAM \\
+\hline
+\rowcolor{yellow} Juan          & 5 & 4 & 2 &   & 1 &   &   \\
+\hline
+Ignacio       & 3 &   & 2 &   & 5 &   & 4 \\
+\hline
+\rowcolor{yellow}Perla         & 3 & 3 &   & 1 & 4 & 3 &   \\
+\hline
+\rowcolor{yellow}Inés          & 5 & 5 &   & 1 & 2 &   & 5 \\
+Sam          & 1 &  &   &  &  & 4  & 3 \\
+
+
+\end{tabular}
+\end{adjustbox}
+\caption{La misma tabla de la figura x, imaginar que se quiere conocer el puntaje que Juan dará al Museo de Bellas Artes, para eso se deben tener en cuenta sólo los usuarios que hayan visitado este lugar, o sea, Perla y Inés.}
+
+\end{figure}
+
+Comenzando por el primer ítem candidato, al iniciar la sesión, el sistema consulta por todas las reviews que hayan sido escritas sobre el ítem actual. Los usuarios que escribieron estas reviews se conocen como productores.
+
+De este grupo de productores, se escogen sólo los que hayan escrito reseñas sobre al menos dos ítems sobre los que el consumidor haya también dado su opinión.
+\newcolumntype{g}{>{\columncolor{yellow}}c}
+\begin{figure}
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{|c|g|g|c|c|g|c|c|}
+
+                  & Plaza de Armas & Cerro Sta. Lucia & Cerro San Cristobal & Museo de Bellas Artes & Quinta Normal  & Teatro Municipal & Centro GAM \\
+\hline
+Juan          & 5 & 4 & 2 &   & 1 &   &   \\
+\hline
+\rowcolor{white}Ignacio       & 3 &   & 2 &   & 5 &   & 4 \\
+\hline
+Perla         & 3 & 3 &   & 1 & 4 & 3 &   \\
+\hline
+Inés          & 5 & 5 &   & 1 & 2 &   & 5 \\
+\hline
+Sam          & 1 &  &   &  &  & 4  & 3 \\
+\hline
+
+\end{tabular}
+\end{adjustbox}
+\caption{Tabla x, pero destacando que para el cálculo del puntaje al Museo de Bellas artes, sólo se tomaran en cuenta lugares que hayan sido visitados por los tres usuarios, Juan, Perla e Inés.}
+
+\end{figure}
+
+
+En la sección de estado del arte se describieron varias formas en que se pueden integrar los algoritmos de recomendación con los de trust. Para este dominio en particular, ya que se intenta hacer un acercamiento al comportamiento observado en la vida diaria entre personas, se decidió que se utilizará el trust como un umbral, en el que la opinión de una persona ''no confiable'' se considera inválida y por lo tanto, es ignorada. 
+
+Por lo tanto, después de determinar los posibles usuarios productores, existe otro filtro que determina quiénes serán de confianza. Después de obtener la lista inicial de productores, se determina el nivel de trust que tiene el consumidor con cada uno de los productores. Si no existe una relación directa de trust entre el consumidor y el posible productor, ésta se calcula mediante ''tidal trust''. Una vez que se tiene el valor de trust, el productor candidato es removido de la lista si es que su trust con el consumidor es menor a 0.5, en caso contrario, permanece en la lista. 
+
+Luego, para estimar numéricamente el parecido de las opiniones del consumidor con cada productor, se utiliza la correlación de Pearsson (cita). La idea detrás de esta lógica es que mientras más parecido sea el consumidor con un productor, más peso tendrá éste sobre la estimación del puntaje predicho. Empezando por Juan y Perla:
+
+\begin{figure}
+
+\begin{equation}
+sim(u,n)=\frac{\sum_{i=1}^{n}(u_i-\bar{u})(n_i-\bar{n})}{\sqrt{\sum_{i=1}^{n}(u_i-\bar{u})^2}+\sqrt{\sum_{i=1}^{n}(n_i-\bar{n})^2}}
+\end{equation}
+\caption{La similitud entre dos conjuntos, según la correlación de Pearsson, en este caso, interpretar los valores de $u$ como las estrellas que ha dado Juan a los lugares que visitó y los de $n$ los que ha dado Perla. }
+
+\end{figure}
+Conociendo el puntaje que ha puesto en promedio cada productor, $\bar{u}$ para Juan y $\bar{n}$ para Perla, se calcula la diferencia con el puntaje dado. Reemplazando con los promedios y los valores de reseñas, se tiene:
+
+
+\begin{equation}
+\frac{3*-1.5 + 2*3.5+-1*-0.5}{\sqrt{3^2+2^2+(-1)^2}*\sqrt{(-0.5)^2+(-1.5)^2+(-1,5)^2+o.5^2+3,5^2+(-0.5)^2}}  = 0.3785
+\end{equation}
+
+
+Este proceso se repite para cada dupla de consumidor-productor posible.
+
+Con esto, se tiene el numerador de la ecuación (referencia), el denominador es el producto de las sumatorias de las desviaciones estándares, para Juan y para Perla.
+
+Con esto, se llega finalmente a un puntaje estimado, que dará el consumidor al ítem actual. Este proceso se repite para cada ítem candidato.
+Luego, cuando ya se tienen todos los puntajes predichos, se considera como recomendables sólo los ítems cuyo puntaje estimado sea al menos 3 estrellas.
+
+
+\begin{figure}
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{|c|c|c|c|}
+\hline
+                &   Museo de Bellas Artes & Teatro Municipal & Centro GAM \\
+
+\hline
+Puntaje Predicho Juan          & 1.28  &  3.60  & 3.09  \\
+\hline
+
+
+\end{tabular}
+\end{adjustbox}
+\caption{Se pueden ver los puntajes que el sistema predice para Juan, se puede ver que el sistema estima que a Juan no le va a gustar el Museo de Bellas Artes, sin embargo, se puede ver que dará puntajes por sobre 3 estrellas al Teatro Municipal y al Centro GAM, por lo tanto se les recomienda esos lugares a Juan.}
+
+\end{figure}
+
+% otra vista que muestra la pantalla de recomendación
+
+Son estos los ítems que el sistema va a mostrar en la vista de recomendados, ordenados de mayor a menor puntaje. 
 
 
 

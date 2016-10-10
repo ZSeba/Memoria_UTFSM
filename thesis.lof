@@ -1,22 +1,27 @@
 \select@language {spanish}
 \select@language {spanish}
+\contentsline {figure}{\numberline {1}{\ignorespaces Ejemplo de un grafo G, donde las V\IeC {\'e}rtices(Nodos) son los c\IeC {\'\i }rculos enumerados y los Arcos son las l\IeC {\'\i }neas que los unen \relax }}{\es@scroman {xii}}{figure.caption.8}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Una persona $a$ eval\IeC {\'u}a si confiar o no en una persona $c$\relax }}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Varios caminos para llegar desde $a$ hasta $c$\relax }}{11}{figure.caption.11}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Las estrellas que dan los usuarios A, B, C y D a distintas pel\IeC {\'\i }culas\relax }}{12}{figure.caption.12}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Se cambiaron los 3,4 y 5 por 1, y los 1 y 2 por 0\relax }}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces La matriz de ejemplo con valores normalizados\relax }}{14}{figure.caption.14}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Relaciones de confianza en sistemas recomendadores\relax }}{16}{figure.caption.15}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Una persona $a$ eval\IeC {\'u}a si confiar o no en una persona $c$\relax }}{8}{figure.caption.9}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Varios caminos para llegar desde $a$ hasta $c$\relax }}{10}{figure.caption.10}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Las estrellas que dan los usuarios A, B, C y D a distintas pel\IeC {\'\i }culas\relax }}{11}{figure.caption.11}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Se cambiaron los 3,4 y 5 por 1, y los 1 y 2 por 0\relax }}{13}{figure.caption.12}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces La matriz de ejemplo con valores normalizados\relax }}{13}{figure.caption.13}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Relaciones de confianza en sistemas recomendadores\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Un ejemplo sencillo de los grafos que genera el sistema. Los nodos azules representan usuarios, mientras que los nodos verdes representan los \IeC {\'\i }tems (lugares culturales) a evaluar. El arco que une al Usuario 1 con el Item 1 es la rese\IeC {\~n}a (Review) que le da el usuario al \IeC {\'\i }tem.\relax }}{22}{figure.caption.16}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama de interacci\IeC {\'o}n entre el usuario, los controladores y la base de datos\relax }}{23}{figure.caption.17}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de interacci\IeC {\'o}n entre el usuario, los controladores y la base de datos\relax }}{24}{figure.caption.18}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagrama de interacci\IeC {\'o}n entre el usuario, los controladores y la base de datos\relax }}{25}{figure.caption.20}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagrama de flujo del comportamiento esperado del sistema. Uso de las funciones recommend y predict\_user\_score\relax }}{28}{figure.caption.22}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces La secci\IeC {\'o}n de items recomendados para el usuario, ordenados seg\IeC {\'u}n el puntaje predicho.\relax }}{29}{figure.caption.25}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces La vista del Centro Cultural GAM, donde se puede ver una breve descripci\IeC {\'o}n del lugar, junto con lsa opiniones de usuarios que visitaron el lugar.\relax }}{30}{figure.caption.26}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Las estrellas que dan los usuarios A, B, C y D a distintas pel\IeC {\'\i }culas\relax }}{30}{figure.caption.27}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces El grafo que se produce al relacionar la rese\IeC {\~n}as de los usuarios del sistema y los lugares disponibles para visitar\relax }}{31}{figure.caption.28}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces La misma tabla de la figura x, imaginar que se quiere conocer el puntaje que Juan dar\IeC {\'a} al Museo de Bellas Artes, para eso se deben tener en cuenta s\IeC {\'o}lo los usuarios que hayan visitado este lugar, o sea, Perla y In\IeC {\'e}s.\relax }}{31}{figure.caption.29}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Tabla x, pero destacando que para el c\IeC {\'a}lculo del puntaje al Museo de Bellas artes, s\IeC {\'o}lo se tomaran en cuenta lugares que hayan sido visitados por los tres usuarios, Juan, Perla e In\IeC {\'e}s.\relax }}{32}{figure.caption.30}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces La similitud entre dos conjuntos, seg\IeC {\'u}n la correlaci\IeC {\'o}n de Pearsson, en este caso, interpretar los valores de $u$ como las estrellas que ha dado Juan a los lugares que visit\IeC {\'o} y los de $n$ los que ha dado Perla. \relax }}{33}{figure.caption.31}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Se pueden ver los puntajes que el sistema predice para Juan, se puede ver que el sistema estima que a Juan no le va a gustar el Museo de Bellas Artes, sin embargo, se puede ver que dar\IeC {\'a} puntajes por sobre 3 estrellas al Teatro Municipal y al Centro GAM, por lo tanto se les recomienda esos lugares a Juan.\relax }}{33}{figure.caption.32}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Un ejemplo sencillo de los grafos que genera el sistema. Los nodos azules representan usuarios, mientras que los nodos verdes representan los \IeC {\'\i }tems (lugares culturales) a evaluar. El arco que une al Usuario 1 con el Item 1 es la rese\IeC {\~n}a (Review) que le da el usuario al \IeC {\'\i }tem.\relax }}{21}{figure.caption.15}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de interacci\IeC {\'o}n entre el usuario, los controladores y la base de datos\relax }}{22}{figure.caption.16}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de interacci\IeC {\'o}n entre el usuario, los controladores y la base de datos\relax }}{23}{figure.caption.17}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama de interacci\IeC {\'o}n entre el usuario, los controladores y la base de datos\relax }}{24}{figure.caption.19}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagrama de interacci\IeC {\'o}n entre el usuario, los controladores y la base de dato\relax }}{25}{figure.caption.21}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Las estrellas que dan los usuarios A, B, C y D a distintas pel\IeC {\'\i }culas\relax }}{26}{figure.caption.22}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces La misma tabla de la figura x, imaginar que se quiere conocer el puntaje que Juan dar\IeC {\'a} al Museo de Bellas Artes, para eso se deben tener en cuenta s\IeC {\'o}lo los usuarios que hayan visitado este lugar, o sea, Perla y In\IeC {\'e}s.\relax }}{27}{figure.caption.23}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Tabla x, pero destacando que para el c\IeC {\'a}lculo del puntaje al Museo de Bellas artes, s\IeC {\'o}lo se tomaran en cuenta lugares que hayan sido visitados por los tres usuarios, Juan, Perla e In\IeC {\'e}s.\relax }}{27}{figure.caption.24}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces La similitud entre dos conjuntos, seg\IeC {\'u}n la correlaci\IeC {\'o}n de Pearsson, en este caso, interpretar los valores de $u$ como las estrellas que ha dado Juan a los lugares que visit\IeC {\'o} y los de $n$ los que ha dado Perla. \relax }}{28}{figure.caption.25}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Se pueden ver los puntajes que el sistema predice para Juan, se puede ver que el sistema estima que a Juan no le va a gustar el Museo de Bellas Artes, sin embargo, se puede ver que dar\IeC {\'a} puntajes por sobre 3 estrellas al Teatro Municipal y al Centro GAM, por lo tanto se les recomienda esos lugares a Juan.\relax }}{29}{figure.caption.26}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Vista de calificaci\IeC {\'o}n para cada prueba\relax }}{35}{figure.caption.33}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Vista de ordenamiento para cada prueba\relax }}{36}{figure.caption.34}
